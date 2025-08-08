@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                build()
+                build('Project A')
             }
         }
         stage('Deploy') {
